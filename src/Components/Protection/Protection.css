@@ -1,0 +1,31 @@
+.protectionSection{
+    @apply w-full bg-[#E5E5E5]
+}
+
+.protectionRow{
+    @apply p-[56px] lg:pl-[136px] lg:pr-[56px] bg-[#fff] rounded-[16px] flex justify-between items-center
+}
+
+.recomandedCol{
+    @apply flex-col justify-between items-center gap-[55px] hidden lg:flex
+}
+
+.recomendBTN{
+    @apply w-[196px] py-3 px-[22px] bg-[#10B981] rounded-b-[8px] font-poppins font-medium text-[16px] text-[#fff] leading-6 text-center
+}
+
+.recomandedCol img{
+    @apply w-[295px]
+}
+
+.protectionInfoCol h1{
+    @apply font-poppins font-medium text-xl text-[#091A4B] leading-7 text-center
+}
+
+.protectionInfoCol h2{
+    @apply w-full  lg:w-[448px] mt-4 mb-10 font-poppins font-normal text-[16px] text-commonColor leading-6 text-center
+}
+
+.protectionCartRow{
+    @apply lg:w-[448px] flex flex-wrap lg:justify-between gap-4
+}

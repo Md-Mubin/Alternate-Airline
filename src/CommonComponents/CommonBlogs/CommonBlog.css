@@ -1,0 +1,19 @@
+.mainBlog{
+    @apply w-full md:w-[740px] lg:w-[875px] py-[56px] px-[10px] md:pl-[56px] text-start bg-no-repeat bg-cover bg-center rounded-3xl
+}
+
+.blogName{
+    @apply font-poppins font-medium text-[14px] text-[#fff] leading-[22px]
+}
+
+.blogInfo{
+    @apply mt-4 w-full md:w-[448px] font-poppins font-medium text-[16px] md:text-xl text-[#fff] leading-7
+}
+
+.mainBlog button{
+    @apply mt-10 md:mt-[215px] p-2 md:py-4 md:px-6 border-2 border-[#fff] rounded-xl font-poppins font-medium text-xs md:text-sm text-[#fff] leading-[22px]  duration-200
+}
+
+.mainBlog button:hover{
+    @apply bg-[#fff] text-[#091A4B]
+}

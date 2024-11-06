@@ -1,0 +1,27 @@
+.mainNav{
+    @apply w-full py-6 hidden lg:block
+}
+
+.navRow{
+    @apply flex items-center justify-between
+}
+
+.navRow img{
+    @apply w-[133px] 
+}
+
+.navHead{
+    @apply flex items-center
+}
+
+.navItems{
+    @apply w-[403px] flex items-center gap-[28px] ml-10 
+}
+
+.navItems li{
+    @apply font-poppins font-normal text-[14px] text-commonColor leading-[22px] 
+}
+
+.navRow button{
+    @apply font-poppins font-normal text-[14px] text-commonColor leading-[22px] 
+}

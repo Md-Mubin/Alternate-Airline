@@ -1,0 +1,35 @@
+.resNav{
+    @apply w-full py-8 lg:hidden bg-[#fff]
+}
+
+.resNavRow{
+    @apply flex justify-between relative
+}
+
+.resNavRow img{
+    @apply w-[106px]
+}
+
+.resNavButton{
+    @apply text-[30px] text-brandColor
+}
+
+.resNavItems{
+    @apply w-full py-4 bg-brandColor absolute text-center rounded-xl translate-y-0 duration-200
+}
+
+.resNavItems li{
+    @apply py-2 duration-200 cursor-pointer font-poppins font-medium text-[16px] text-[#fff] 
+}
+
+.resNavItems li:hover{
+    @apply bg-[#1877ca] rounded-xl 
+}
+
+.resNavreverseButton{
+    @apply py-2 px-4 rounded-xl flex items-center gap-3 ml-[65%] md:ml-[80%] duration-200
+}
+
+.resNavreverseButton:hover{
+    @apply text-[#fff] bg-[#1877ca] 
+}

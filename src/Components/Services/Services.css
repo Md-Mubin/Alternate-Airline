@@ -1,0 +1,7 @@
+.serviceSection{
+    @apply pt-10 lg:pt-20 pb-20 bg-[#E5E5E5]
+}
+
+.serviceCartRow{
+    @apply flex justify-between flex-col lg:flex-row gap-8
+}

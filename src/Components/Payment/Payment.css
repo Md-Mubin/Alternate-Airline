@@ -1,0 +1,107 @@
+.paymentSection{
+    @apply bg-[#E5E5E5] 
+}
+
+.paymentPart{
+    @apply p-6 md:p-14 bg-[#fff] flex flex-col md:flex-row gap-6 justify-between items-end md:gap-[56px] rounded-[24px] text-center md:text-start
+}
+
+.paymentinfoCol{
+    @apply w-full
+}
+
+.paymentinfoCol h1{
+    @apply w-full font-poppins font-medium text-xl text-[#091A4B] leading-5
+}
+
+.paymentinfoCol p{
+    @apply w-full md:w-[363px] lg:w-[448px] mt-4 mb-6 md:mb-10 font-poppins font-normal text-[16px] text-commonColor
+}
+
+.bulletPoint li{
+    @apply flex items-center gap-2 font-poppins font-normal text-[13px] md:text-[16px] text-commonColor leading-6
+}
+
+.bulletPoint li .icon{
+    @apply text-[#10B981] text-xl
+}
+
+.paymentinfoCol button{
+    @apply mt-10 px-6 py-4 bg-brandColor rounded-[12px] font-poppins font-medium text-[14px] text-[#fff] leading-[22px]
+}
+
+.paymentSectionImage{
+    @apply relative
+}
+
+.paymentSectionImage img{
+    @apply w-[56px]
+}
+
+.paymentSectionImage .mainImage{
+    @apply w-[150px] md:w-[197px] lg:w-[294px] mb-[-20px] md:mb-[-56px] mr-[77px] z-10
+}
+
+/* --------------- child - 1 --------------- */
+.child1{
+    @apply  absolute top-40 right-0 z-0 animate-[child1animte_5s_linear_alternate_infinite]
+}
+
+@keyframes child1animte {
+    0%{
+        top: 40;
+        right: 0;
+    }
+    100%{
+        top: 100%;
+        right: 110%;
+    }
+}
+
+/* --------------- child - 2 --------------- */
+.child2{
+    @apply absolute top-20 right-0 animate-[child2animte_3s_linear_alternate_infinite]
+}
+
+@keyframes child2animte {
+    0%{
+        top: 40;
+        right: 0;
+    }
+    100%{
+        top: 100%;
+        right: 110%;
+    }
+}
+
+/* --------------- child - 3 --------------- */
+.child3{
+    @apply absolute top-0 animate-[child3animte_3s_linear_alternate_infinite]
+}
+
+@keyframes child3animte {
+    0%{
+        top: 40;
+        right: 0;
+    }
+    100%{
+        top: 100%;
+        right: 110%;
+    }
+}
+
+/* --------------- child - 4 --------------- */
+.child4{
+    @apply absolute bottom-0 animate-[child4animte_3s_linear_alternate_infinite]
+}
+
+@keyframes child4animte {
+    0%{
+        top: 40;
+        right: 0;
+    }
+    100%{
+        top: 100%;
+        right: 110%;
+    }
+}

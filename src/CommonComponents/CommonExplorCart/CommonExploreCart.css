@@ -1,0 +1,15 @@
+.commonCart {
+    @apply w-full lg:w-[352px] rounded-[16px] overflow-hidden bg-[#fff] duration-200 will-change-transform
+}
+
+.commonCart:hover {
+    @apply scale-105
+}
+
+.exploreCartInfo {
+    @apply p-8 mt-8 font-poppins font-normal text-[16px] text-brandColor leading-8
+}
+
+.cartName {
+    @apply font-poppins font-normal text-xl text-[#091A4B] leading-[28px]
+}

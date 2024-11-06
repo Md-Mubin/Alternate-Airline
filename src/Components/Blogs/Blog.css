@@ -1,0 +1,39 @@
+.blogSection{
+    @apply w-full bg-[#E5E5E5] pt-20 pb-[160px] text-center
+}
+
+.blogHead h2{
+    @apply font-poppins font-medium text-[16px] text-[#005AA9] leading-6
+}
+
+.blogHead h1{
+    @apply mt-2 mb-10 font-poppins font-medium text-2xl text-[#091A4B] leading-8
+}
+
+.cartRow{
+    @apply flex gap-10
+}
+
+.carousel .slide {
+    @apply min-w-[100%]
+}
+
+.carousel .slider-wrapper.axis-horizontal .slider {
+    @apply flex gap-1
+}
+
+.carousel .slider-wrapper {
+    @apply overflow-visible w-[90%] md:w-[90%] lg:w-[62%]
+}
+
+.carousel .control-dots .dot {
+    @apply hidden
+}
+
+.carousel .carousel-status {
+	@apply hidden 
+}
+
+.carousel.carousel-slider .control-arrow {
+	@apply hidden
+}

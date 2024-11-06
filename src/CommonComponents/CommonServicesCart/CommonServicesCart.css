@@ -1,0 +1,15 @@
+.serviceCart{
+    @apply p-10 border-none rounded-2xl bg-[#fff] flex flex-col items-center
+}
+
+.serviceIcon{
+    @apply text-2xl text-[#fff] p-2 bg-brandColor rounded-full
+}
+
+.serviceHead{
+    @apply mt-6 mb-2 font-poppins font-normal text-xl text-[#091A4B] leading-[28px] text-center
+}
+
+.serviceInfo{
+    @apply font-poppins font-normal text-[16px] leading-6 text-center
+}

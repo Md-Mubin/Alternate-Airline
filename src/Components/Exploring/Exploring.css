@@ -1,0 +1,11 @@
+.exploringSection{
+    @apply py-20 bg-[#E5E5E5]
+}
+
+.exploringSection h1{
+    @apply font-poppins font-medium text-2xl text-[#091A4B] leading-8
+}
+
+.exploringCarts{
+    @apply mt-10 flex flex-wrap lg:flex-nowrap justify-between gap-8
+}

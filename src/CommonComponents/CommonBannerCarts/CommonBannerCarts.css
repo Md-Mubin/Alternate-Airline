@@ -1,0 +1,12 @@
+.carts{
+    @apply w-full md:w-[317px] lg:w-[210px] p-4 border border-[#E6E9F0] rounded-lg
+}
+
+.cartHead{
+    @apply flex justify-between font-poppins font-normal text-[10px] text-commonColor leading-[18px]
+}
+
+.cartInfo{
+    @apply font-poppins font-normal text-[14px] text-[#091A4B] leading-[22px]
+}
+
