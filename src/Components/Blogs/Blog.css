@@ -14,26 +14,10 @@
     @apply flex gap-10
 }
 
-.carousel .slide {
-    @apply min-w-[100%]
+.slick-track {
+    @apply !w-full !flex  xl:gap-[450px] 2xl:gap-[250px]
 }
 
-.carousel .slider-wrapper.axis-horizontal .slider {
-    @apply flex gap-1
-}
-
-.carousel .slider-wrapper {
-    @apply overflow-visible w-[90%] md:w-[90%] lg:w-[62%]
-}
-
-.carousel .control-dots .dot {
-    @apply hidden
-}
-
-.carousel .carousel-status {
-	@apply hidden 
-}
-
-.carousel.carousel-slider .control-arrow {
-	@apply hidden
+.slick-arrow{
+    @apply !hidden !scale-0
 }

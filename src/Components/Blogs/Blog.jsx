@@ -1,11 +1,19 @@
+import './Blog.css'
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css"; // requires a loader
-import { Carousel } from "react-responsive-carousel";
-import "./Blog.css";
 import CommonBlog from "../../CommonComponents/CommonBlogs/CommonBlog";
+import Slider from "react-slick";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const Blog = () => {
-   
+
+  const settings = {
+    infinite: true,
+    slidesToShow: 3,
+    speed: 500,
+    autoplay: true
+  };
+
   return (
     <>
       <section className='blogSection'>
@@ -14,29 +22,33 @@ const Blog = () => {
           <h1>Alternative adventures</h1>
         </div>
 
-        <Carousel infiniteLoop emulateTouch interval={1500} autoPlay={true}>
-          <CommonBlog
-            blogName={"Travel advice"}
-            blogInfo={
-              "Popular destinations with no travel restrictions or quarantine"
-            }
-            addImage={"bg-[url('images/blog1.png')]"}
-          />
-          <CommonBlog
-            blogName={"Destinations"}
-            blogInfo={
-              "The most beautiful locations around the world that you don't want to miss"
-            }
-            addImage={"bg-[url('images/blog2.jpg')]"}
-          />
-          <CommonBlog
-            blogName={"Travel tips"}
-            blogInfo={
-              "What to take with you for the ultimate European adventure"
-            }
-            addImage={"bg-[url('images/blog3.png')]"}
-          />
-        </Carousel>
+        <div className="slider-container">
+          <Slider {...settings} >
+
+            <CommonBlog
+              blogName={"Travel advice"}
+              blogInfo={
+                "Popular destinations with no travel restrictions or quarantine"
+              }
+              addImage={"bg-[url('images/blog1.png')]"}
+            />
+            <CommonBlog
+              blogName={"Destinations"}
+              blogInfo={
+                "The most beautiful locations around the world that you don't want to miss"
+              }
+              addImage={"bg-[url('images/blog2.jpg')]"}
+            />
+            <CommonBlog
+              blogName={"Travel tips"}
+              blogInfo={
+                "What to take with you for the ultimate European adventure"
+              }
+              addImage={"bg-[url('images/blog3.png')]"}
+            />
+          </Slider>
+        </div>
+
       </section>
     </>
   );
