@@ -10,6 +10,9 @@ import { PiMapPinPlusFill } from 'react-icons/pi'
 const Protection = () => {
     return (
         <>
+            {/* -------------------------------------------------------------- */}
+            {/* ================== Protection Section Start ================== */}
+
             <section className='protectionSection'>
                 <div className="container">
                     <div className="protectionRow">
@@ -23,17 +26,20 @@ const Protection = () => {
                             <h2>During these uncertain times we recommend adding Cancellation protection to your booking</h2>
 
                             <div className="protectionCartRow">
-                                <CommonProtectionCart icon={<BsHeartPulse/>} info={"Illness"} extraStyle={"py-[17px]"}/>
-                                <CommonProtectionCart icon={<BsCloudRainHeavy/>} info={"Weather"} extraStyle={"py-[17px]"}/>
-                                <CommonProtectionCart icon={<BiPlusMedical/>} info={"Emergency"} extraStyle={"py-[17px]"}/>
-                                <CommonProtectionCart icon={<TbPlaneOff/>} info={"Refundable Booking"} extraStyle={"py-[10px]"}/>
-                                <CommonProtectionCart icon={<TfiTarget/>} info={"Mechanical Breakdown"} extraStyle={"py-[10px]"}/>
-                                <CommonProtectionCart icon={<PiMapPinPlusFill />} info={"Plus much much more"} extraStyle={"py-[10px]"}/>
+                                <CommonProtectionCart icon={<BsHeartPulse />} info={"Illness"} extraStyle={"py-[17px]"} />
+                                <CommonProtectionCart icon={<BsCloudRainHeavy />} info={"Weather"} extraStyle={"py-[17px]"} />
+                                <CommonProtectionCart icon={<BiPlusMedical />} info={"Emergency"} extraStyle={"py-[17px]"} />
+                                <CommonProtectionCart icon={<TbPlaneOff />} info={"Refundable Booking"} extraStyle={"py-[10px]"} />
+                                <CommonProtectionCart icon={<TfiTarget />} info={"Mechanical Breakdown"} extraStyle={"py-[10px]"} />
+                                <CommonProtectionCart icon={<PiMapPinPlusFill />} info={"Plus much much more"} extraStyle={"py-[10px]"} />
                             </div>
                         </ul>
                     </div>
                 </div>
             </section>
+
+            {/* ================== Protection Section End ================== */}
+            {/* ------------------------------------------------------------ */}
         </>
     )
 }

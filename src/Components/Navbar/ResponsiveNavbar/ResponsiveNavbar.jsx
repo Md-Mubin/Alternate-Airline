@@ -11,6 +11,10 @@ const ResponsiveNavbar = () => {
 
   return (
     <>
+
+      {/* ------------------------------------------------------------------ */}
+      {/* ================== Responsive Navbar Part Start ================== */}
+      
       <nav className='resNav'>
         <div className='container'>
           <div className='resNavRow'>
@@ -18,20 +22,23 @@ const ResponsiveNavbar = () => {
             <button onClick={handleShow} className='resNavButton'>
               <FaBars />
             </button>
-          
-              <ul className= {show ? "resNavItems" : "translate-y-[-250px] absolute duration-200"}>
-                <li>Book flights</li>
-                <li>Information</li>
-                <li>Help</li>
-                <li>Travel Agents</li>
-                <button onClick={handleShow} className='resNavreverseButton'>
-                  Close <FaArrowUp />
-                </button>
-              </ul>
-          
+
+            <ul className={show ? "resNavItems" : "translate-y-[-250px] absolute duration-200"}>
+              <li>Book flights</li>
+              <li>Information</li>
+              <li>Help</li>
+              <li>Travel Agents</li>
+              <button onClick={handleShow} className='resNavreverseButton'>
+                Close <FaArrowUp />
+              </button>
+            </ul>
+
           </div>
         </div>
       </nav>
+
+      {/* ================== Responsive Navbar Part End ================== */}
+      {/* ---------------------------------------------------------------- */}
     </>
   );
 };

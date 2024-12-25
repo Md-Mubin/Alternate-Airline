@@ -5,6 +5,9 @@ import ResponsiveNavbar from './ResponsiveNavbar/ResponsiveNavbar'
 const Navbar = () => {
   return (
     <>
+      {/* ------------------------------------------------------- */}
+      {/* ================== Navbar Part Start ================== */}
+
       <nav className='mainNav'>
         <div className="container">
           <div className="navRow">
@@ -21,7 +24,10 @@ const Navbar = () => {
           </div>
         </div>
       </nav>
-      <ResponsiveNavbar/>
+      <ResponsiveNavbar />
+
+      {/* ================== Navbar Part End ================== */}
+      {/* ----------------------------------------------------- */}
     </>
   )
 }

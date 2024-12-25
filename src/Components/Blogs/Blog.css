@@ -10,14 +10,26 @@
     @apply mt-2 mb-10 font-poppins font-medium text-2xl text-[#091A4B] leading-8
 }
 
-.cartRow{
-    @apply flex gap-10
+.slider-container{
+    @apply  m-auto overflow-hidden 
 }
 
-.slick-track {
-    @apply !w-full !flex  xl:gap-[450px] 2xl:gap-[250px]
+.slider-container .slick-slider .slick-arrow{
+    @apply !hidden
 }
 
-.slick-arrow{
-    @apply !hidden !scale-0
+.slider-container .slick-track {
+    @apply flex items-center gap-2 xl:gap-10
+}
+
+.slick-dots{
+    @apply !flex justify-center gap-10
+}
+
+.slick-dots li button{
+    @apply w-[15px] h-[15px] bg-blue-300 rounded-full text-[0px] 
+}
+
+.slick-dots .slick-active button{
+    @apply w-[15px] h-[15px] bg-[#005aa9] rounded-full 
 }

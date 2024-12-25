@@ -1,5 +1,5 @@
 .mainBlog{
-    @apply w-full md:w-[740px] lg:w-[875px] py-[56px] px-[10px] md:pl-[56px] text-start bg-no-repeat bg-cover bg-center rounded-3xl
+    @apply w-full py-[56px] px-[10px] md:pl-[56px] text-start bg-no-repeat bg-cover bg-center rounded-3xl
 }
 
 .blogName{
@@ -7,7 +7,7 @@
 }
 
 .blogInfo{
-    @apply mt-4 w-full md:w-[448px] font-poppins font-medium text-[16px] md:text-xl text-[#fff] leading-7
+    @apply mt-4 md:w-[448px] font-poppins font-medium text-[16px] md:text-xl text-[#fff] leading-7
 }
 
 .mainBlog button{

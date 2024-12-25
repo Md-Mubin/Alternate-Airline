@@ -5,9 +5,12 @@ import CommonBannerCarts from '../../CommonComponents/CommonBannerCarts/CommonBa
 const Banner = () => {
 
   const [move, setMove] = useState(false)
-  
+
   return (
     <>
+      {/* ---------------------------------------------------------- */}
+      {/* ================== Banner Section Start ================== */}
+
       <section className='bannerSection'>
         <div className="container">
           <div className="bannerHead">
@@ -49,6 +52,9 @@ const Banner = () => {
           </div>
         </div>
       </section>
+
+      {/* ================== Banner Section End ================== */}
+      {/* -------------------------------------------------------- */}
     </>
   )
 }
