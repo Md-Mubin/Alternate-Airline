@@ -1,5 +1,5 @@
 .bannerSection{
-    @apply w-full py-10 md:py-20 bg-[url("images/banner_image.jpg")] bg-cover bg-center bg-no-repeat
+    @apply w-full py-10 md:py-20 bg-[url("/images/banner_image.jpg")] bg-cover bg-center bg-no-repeat
 }
 
 .bannerHead{

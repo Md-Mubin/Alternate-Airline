@@ -43,7 +43,7 @@ const Blog = () => {
                 blogInfo={
                   "Popular destinations with no travel restrictions or quarantine"
                 }
-                addImage={"bg-[url('images/blog1.png')]"}
+                addImage={"bg-[url('/images/blog1.png')]"}
               />
             </div>
 
@@ -53,7 +53,7 @@ const Blog = () => {
                 blogInfo={
                   "The most beautiful locations around the world that you don't want to miss"
                 }
-                addImage={"bg-[url('images/blog2.jpg')]"}
+                addImage={"bg-[url('/images/blog2.jpg')]"}
               />
             </div>
 
@@ -63,7 +63,7 @@ const Blog = () => {
                 blogInfo={
                   "What to take with you for the ultimate European adventure"
                 }
-                addImage={"bg-[url('images/blog3.png')]"}
+                addImage={"bg-[url('/images/blog3.png')]"}
               />
             </div>
           </Slider>
